@@ -1,52 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<header>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Henry Scotti</title>
-    <meta name="descripton" content="Esse é um site para criar um Portifólio"> 
-    <meta name="keywords" content="Aluno, super dedicado, estudioso, legal, divertido, rapido, gostoso, css, html, ">
+    <title>Portfólio Henry Scotti</title>
+    <meta name="description" content="Esse é um site para criar um portfólio.">
+    <meta name="keywords" content="Aluno, dedicado, estudioso, divertido, rápido, gostoso, css, html">
     <meta name="author" content="Henry Scotti">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
 
-</header>
 <body>
     <header>
         <a href="#" class="logo">Henry Scotti</a>
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="menu-icon"></label>
-        <span></span>
-        <span></span>
-        <span></span>
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
         <nav>
             <a href="#" class="active">Home</a>
-            <a href="#">Serviços</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Formação</a>
-            <a href="#">Experiencia</a>
-            <a href="#">Contato</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="#Formacao">Formação</a>
+            <a href="#Experiencia">Experiência</a>
+            <a href="#Contato">Contato</a>
         </nav> 
-        </header>
-        <section class="home">
-            <div class="home-img">
-                <img src="./img/457-4576351_lionel-messi-barcelona-messi-png.png" 
-                alt="personagem azul dos Smurfs">
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="./img/457-4576351_lionel-messi-barcelona-messi-png.png" 
+                 alt="Imagem do Lionel Messi">
+        </div>
+        <div class="home-content">
+            <h1>Eu sou o <span>Henry</span></h1>
+            <h3 class="typing-text">Eu sou <span></span></h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit consequuntur enim quo recusandae eius eveniet distinctio quia totam omnis, praesentium, alias esse mollitia? Voluptatibus illo consequatur aliquam vel doloremque adipisci.</p>
+            
+            <div class="social-icons">
+                <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"> <i class="fa-brands fa-github"></i></a>
+                <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="home-content">
-                <h1>Eu sou o <span>Henry</span></h1>
-                <h3 class="typing-text">Eu sou <span></span></h3> 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur enim quo recusandae eius eveniet distinctio quia totam omnis, praesentium, alias esse mollitia? Voluptatibus illo consequatur aliquam vel doloremque adipisci.</p>
-                    <di v class="social-icons">
-                        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"> <i class="fa-brands fa-github"></i></a>
-                        <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
-                    </div>
-            <a href="#" class="btn">Me contrate </a>
-             </div>
-        </section>
-    
-    
+
+            <a href="#" class="btn">Me contrate</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="blocos">
+        <h3>Serviços</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex nisi officia aut officiis. Quam tempore, ut aperiam quod quia aliquid vitae! Alias impedit nulla, eum tenetur amet voluptatum quia.</p>
+    </section>
+      <section id="Habilidades"class="blocos">
+        <h3>Habilidades</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex nisi officia aut officiis. Quam tempore, ut aperiam quod quia aliquid vitae! Alias impedit nulla, eum tenetur amet voluptatum quia.</p>
+    </section>  <section id="Formacao"class="blocos">
+        <h3>Formação</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex nisi officia aut officiis. Quam tempore, ut aperiam quod quia aliquid vitae! Alias impedit nulla, eum tenetur amet voluptatum quia.</p>
+    </section>  <section id="Experiencia"class="blocos">
+        <h3>Experiencia</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex nisi officia aut officiis. Quam tempore, ut aperiam quod quia aliquid vitae! Alias impedit nulla, eum tenetur amet voluptatum quia.</p>
+    </section>  <section id="Contato"class="blocos">
+        <h3>Contato</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex nisi officia aut officiis. Quam tempore, ut aperiam quod quia aliquid vitae! Alias impedit nulla, eum tenetur amet voluptatum quia.</p>
+    </section>
 </body>
 </html>
